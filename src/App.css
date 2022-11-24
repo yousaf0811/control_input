@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.main_form{
+  border: 2px rgb(10, 235, 223) solid;
+  height: 700px;
+  width: 800px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(234, 245, 241);
+  border-radius: 20px;
+}
+.left{
+  height: 699px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.right{
+  height: 699px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
